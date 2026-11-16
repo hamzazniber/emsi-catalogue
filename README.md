@@ -1,10 +1,16 @@
-# EMSI Catalogue - learning scaffold
+# EMSI Catalogue
 
-An Expo Router coursework starter containing the default Home and Explore screens, plus local example product data in `src/data/articles.js`.
+Application mobile Expo / React Native avec Expo Router : catalogue des articles, fiches de detail, liste des clients et navigation par onglets et menu lateral. Les donnees incluses sont des exemples.
 
-The product data is not yet connected to a completed catalogue interface. This is an early learning scaffold.
+Auteur : [Hamza Zniber](https://github.com/hamzazniber).
 
-## Local development
+## Developpement local
 
-Install the locked dependencies with `npm ci`, then run `npm start`.
-Device behavior has not been freshly tested as part of publishing this source snapshot.
+```sh
+npm ci
+npm start
+```
+
+## Verification
+
+Le controle TypeScript passe. Le lint signale actuellement une erreur dans `src/hooks/use-color-scheme.web.ts` et un avertissement dans `src/app/details.tsx`. Le fonctionnement sur appareil n'a pas ete verifie lors de cette publication.
